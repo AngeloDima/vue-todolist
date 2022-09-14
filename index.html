@@ -11,9 +11,9 @@
 </head>
 <body>
     <div  id="root">
-        <ul>
-            <li v-model v-for="item in Elementi">{{ item }}</li>
-          </ul>
+        <ol>
+            <li class="obj" @click v-for="item in Elementi">{{ item }}</li>
+          </ol>
     </div>
 </body>
 </html>
