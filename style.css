@@ -3,3 +3,19 @@
     padding: 0;
     margin: 0;
 }
+
+
+
+ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+}
+
+
+li{
+    /* color: rgb(137, 255, 133); */
+    padding-left: 20px;
+    padding-top: 50px;
+}
