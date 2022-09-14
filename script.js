@@ -1,29 +1,16 @@
-const Elementi = [
-    {
-        
-        text: 'caffè Nero',
-    },
-    {
-        text: 'caffè Rosso',
-    },
-    {
-        text: 'caffè Verde',
-    {
-        text: 'caffè brutto',
-    },
-    {
-        text: 'caffè bello',
-    }
-];
 
 
 
 
-const app = new vue (
+const app = new Vue (
     {
-        el: `List`,
+        el: `#root`,
         data: {
-
+            Elementi : [
+                `caffe`,
+                `sale`,
+                `provoletta`
+            ]
         }
     }
 )

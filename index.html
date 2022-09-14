@@ -10,10 +10,10 @@
     <title>Vue To Do List</title>
 </head>
 <body>
-    <div>
-        <ul class="List">
-            <li></li>
-        </ul>
+    <div  id="root">
+        <ul>
+            <li v-model v-for="item in Elementi">{{ item }}</li>
+          </ul>
     </div>
 </body>
 </html>
